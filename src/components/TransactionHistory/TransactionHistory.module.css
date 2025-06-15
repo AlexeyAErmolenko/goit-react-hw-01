@@ -1,0 +1,25 @@
+.container {
+    width: 650px;
+    margin: 20px auto;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.tableTransaction {
+    border-collapse: collapse;
+}
+
+.tableThead {
+    color: aliceblue;
+    background-color: #2a2a2a;
+    height: 40px;
+}
+
+.tableTr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+.tableTh {
+    width: 250px;
+    border: 1px solid #060606;
+}
